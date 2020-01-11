@@ -12,3 +12,17 @@ class TestComponent extends Component {
 }
 
 export default TestComponent;
+
+
+class NewComponent extends Component {
+    render() {
+      return (
+        <div >
+          <iframe width="60" height="35" src="https://www.youtube.com/embed/1YQV3kggWKI" frameBorder="0" allow="autoplay; encrypted-media" title="time video" allowFullScreen></iframe>
+        </div>
+      );
+    }
+  }
+  
+ 
+ 
